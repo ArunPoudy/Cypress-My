@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
 # Cypress-My
 This a cypress test automation framework development project
 =======
 # Cypress Framework Boilerplate 
-## By **Mohammad Monfared** | [LinkedIn](https://www.linkedin.com/in/mohammad-monfared) | [YouTube](https://www.youtube.com/automationcamp) | [Website](http://www.monfared.io/)
-## Workshop Record: [YouTube Video](https://www.youtube.com/watch?v=9o7LZRmj2zc)
----
+
 ## Description:
 We have a simple ToDo application deployed in different environments:
 
@@ -41,9 +39,9 @@ Scenario: Check first todo
     Then Verify checkbox with index 0 to be chechked
     And Verify remaining text to match "4 of 5 remaining"
 ```
-## 🚀 Lets get started...
 
-## 🟩 PART 1️⃣
+
+# PART 1
 
 ## 1. Create an empty repo in VCS (e.g. GitHub) and clone
 ## 2. Initialize node project and install cypress
@@ -231,7 +229,7 @@ Feature: Check todos and verifying them to be checked
 ```
 ## 7. Add IDE plugin for `.feature` files
 
-## 🟩 PART 2️⃣
+# PART 2️
 
 ## 8. Run aginst Multiple Environments / Browsers
 
@@ -339,14 +337,11 @@ module.exports = defineConfig({
   },
 })
 ```
-## 🟩 PART 3️⃣
+# PART 3️
 
 ## 12. Integrate to CI (GitHub Actions as an example)
 
-### Define **"CYPRESS_RECORD_KEY"** as a secret in GitHub repo → Settings → Secrets → Actions
-```
-"CYPRESS_RECORD_KEY" > From cypress dashboard
-```
+
 
 ### Add workflow for cypress
 
@@ -551,13 +546,5 @@ jobs:
             path: "${{ github.workspace }}/cypress/reports/html/"
 
 ```
-### push "dev" and "stag" branchs and check
 
-## 16. To run locally and record to dashboard
 
-```
-npx cypress run --record --key {PROJECT_ACCESS_KEY}
-```
-
-## THANK YOU 🙂
->>>>>>> 9abff47 (Project Upload)
