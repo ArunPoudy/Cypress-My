@@ -1,17 +1,15 @@
 
 # Cypress-My
-This a cypress test automation framework development project
-=======
-# Cypress Framework Boilerplate 
+
 
 ## Description:
-We have a simple ToDo application deployed in different environments:
+
 
 Dev Environment: http://devtodo.monfared.io/
 
 Stag Environment: http://stagtodo.monfared.io/
 
-Using Cypress, we will create a test automation framework with the following features:
+ Test automation framework with the following features:
 
 - The Page Object Model is a pattern
 - BDD (Cucumber) support
@@ -20,7 +18,6 @@ Using Cypress, we will create a test automation framework with the following fea
 - Test results dashboard with options to compare, analyze history, and generate graphs.
 - CI integration
 
-As an example, the following are two requirements (Acceptance Criteria) that we will write tests for. 
 
 `AC1`
 ```gherkin
