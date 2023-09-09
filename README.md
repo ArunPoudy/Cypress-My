@@ -4,9 +4,7 @@
 
 ## Description:
 
-
 Dev Environment: http://devtodo.monfared.io/
-
 Stag Environment: http://stagtodo.monfared.io/
 
  Test automation framework with the following features:
